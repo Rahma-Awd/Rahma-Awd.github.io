@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rahma Awd — UI/UX Designer & ITI Instructor</title>
+  <meta name="description" content="Rahma Awd is a UI/UX Designer with 3 years of experience designing intuitive, user-focused digital products for web and mobile, and a UI/UX Instructor at ITI.">
+  <meta name="theme-color" content="#F9F9F9">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Caveat:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="progress" aria-hidden="true"><i></i></div>
+
+  <header class="bar">
+    <div class="bar__inner">
+      <a class="bar__brand" href="#top">Rahma Awd<span>®</span></a>
+      <nav aria-label="Main">
+        <ul class="bar__links" id="nav-links">
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#process">Process</a></li>
+          <li><a class="bar__cta" href="#contact">Get In Touch</a></li>
+        </ul>
+      </nav>
+      <button class="bar__toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="wrap">
+        <!-- Spinning badge -->
+        <div class="badge" aria-hidden="true">
+          <svg viewBox="0 0 120 120">
+            <defs><path id="circ" d="M60,60 m-44,0 a44,44 0 1,1 88,0 a44,44 0 1,1 -88,0"/></defs>
+            <text><textPath href="#circ" textLength="270" lengthAdjust="spacing">UI/UX DESIGNER • ITI INSTRUCTOR • </textPath></text>
+          </svg>
+          <span>RA</span>
+        </div>
+
+        <p class="hero__kicker reveal">
+          <span class="wave" aria-hidden="true">👋</span>
+          <span class="sr">UI/UX Designer &amp; ITI Instructor</span>
+          <span class="role" id="role" aria-hidden="true">UI/UX Designer</span><b class="caret" aria-hidden="true"></b>
+        </p>
+        <h1 class="hero__title" aria-label="Hello, I'm Rahma Awd">
+          <span class="w" aria-hidden="true" style="--i:0">Hello,</span>
+          <span class="w" aria-hidden="true" style="--i:1">I'm</span>
+          <span class="name"><span class="w accent" aria-hidden="true" style="--i:2">Rahma</span> <span class="w accent" aria-hidden="true" style="--i:3">Awd</span><svg class="squiggle" viewBox="0 0 300 18" preserveAspectRatio="none" aria-hidden="true"><path d="M3 11 C 40 2, 70 18, 110 9 S 190 3, 230 11 S 280 14, 297 6"/></svg></span>
+        </h1>
+        <div class="hero__foot reveal">
+          <p class="hero__lead">Designing intuitive, user-focused digital experiences across web and mobile platforms.</p>
+          <div class="hero__actions">
+            <span class="note" aria-hidden="true">say hi!<svg viewBox="0 0 60 44"><path d="M4 6 C 22 2, 42 10, 50 34 M50 34 l-11 -6 M50 34 l 4 -12"/></svg></span>
+            <a class="btn btn--solid" href="#contact">Get In Touch</a>
+            <a class="btn btn--line" href="#work">See Work</a>
+          </div>
+        </div>
+        <ul class="stats reveal">
+          <li><b>3+</b><span>Years of experience</span></li>
+          <li><b>8</b><span>Selected projects</span></li>
+          <li><b>ITI</b><span>UI/UX Instructor</span></li>
+        </ul>
+      </div>
+
+      <div class="strip reveal">
+        <div class="strip__track">
+          <div class="strip__set">
+            <div class="strip__item"><img src="images/lecture.jpg" alt="Rahma presenting an SDLC lecture to a class" style="object-position: 50% 55%" loading="lazy"></div>
+            <div class="strip__item"><img src="images/class.jpg" alt="Rahma teaching a UI/UX class" style="object-position: 40% 60%" loading="lazy"></div>
+            <div class="strip__item"><img src="images/group-1.jpg" alt="Group photo with students at the ITI" loading="lazy"></div>
+            <div class="strip__item"><img src="images/group-3.jpg" alt="Group photo with students in the ITI lobby" style="object-position: 50% 42%" loading="lazy"></div>
+            <div class="strip__item"><img src="images/group-2.jpg" alt="Group photo with students beside the ITI sign" style="object-position: 50% 50%" loading="lazy"></div>
+          </div>
+          <div class="strip__set" aria-hidden="true">
+            <div class="strip__item"><img src="images/lecture.jpg" alt="" style="object-position: 50% 55%" loading="lazy"></div>
+            <div class="strip__item"><img src="images/class.jpg" alt="" style="object-position: 40% 60%" loading="lazy"></div>
+            <div class="strip__item"><img src="images/group-1.jpg" alt="" loading="lazy"></div>
+            <div class="strip__item"><img src="images/group-3.jpg" alt="" style="object-position: 50% 42%" loading="lazy"></div>
+            <div class="strip__item"><img src="images/group-2.jpg" alt="" style="object-position: 50% 50%" loading="lazy"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="block" id="about">
+      <div class="wrap split">
+        <div class="split__label reveal"><span class="idx">01</span><span class="label">About Me</span></div>
+        <p class="about__text reveal">UI/UX Designer with 3 years of experience designing intuitive, user-focused digital experiences across web and mobile platforms. Passionate about solving complex problems through research-driven design, usability principles, and thoughtful user interactions. Alongside my professional work, I serve as a UI/UX Instructor at ITI. My goal is to create meaningful products that deliver value to both users and businesses while continuously growing as a designer and contributing to the field of digital product design.</p>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="block" id="services">
+      <div class="wrap">
+        <div class="split">
+          <div class="split__label reveal"><span class="idx">02</span><span class="label">Services</span></div>
+          <h2 class="title reveal">From ideas into high-impact digital solutions That <span class="accent">engage and convert.</span></h2>
+        </div>
+        <ol class="list">
+          <li class="list__row reveal"><span>01</span><h3>UX Research</h3></li>
+          <li class="list__row reveal"><span>02</span><h3>Wireframing</h3></li>
+          <li class="list__row reveal"><span>03</span><h3>UI Design</h3></li>
+          <li class="list__row reveal"><span>04</span><h3>Mobile App Design</h3></li>
+          <li class="list__row reveal"><span>05</span><h3>Web &amp; Landing Pages</h3></li>
+          <li class="list__row reveal"><span>06</span><h3>Prototyping</h3></li>
+          <li class="list__row reveal"><span>07</span><h3>Design Systems</h3></li>
+          <li class="list__row reveal"><span>08</span><h3>Usability Testing</h3></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section class="block" id="work">
+      <div class="wrap">
+        <div class="split">
+          <div class="split__label reveal"><span class="idx">03</span><span class="label">Projects</span></div>
+          <div>
+            <h2 class="title reveal">Turning Strategy Into <span class="accent">Real-World Results</span></h2>
+            <p class="lead reveal">A selection of projects where clear thinking, strong design, and business goals come together to deliver measurable impact.</p>
+          </div>
+        </div>
+
+        <div class="work">
+          <!-- To link a project, replace href="#" with the real case-study / Behance link -->
+          <a class="card card--wide reveal" href="#">
+            <div class="card__img"><img src="images/talib-alillm.jpg" alt="Talib Alillm, an Islamic e-learning platform: UI and UX case study cover showing the web and mobile app" loading="lazy"></div>
+            <div class="card__meta"><span class="card__no">01</span><h3>Talib Alillm</h3><em>Web &amp; Mobile App</em></div>
+          </a>
+          <a class="card reveal" href="#">
+            <div class="card__img"><img src="https://framerusercontent.com/images/Jw0IfXAL8NE1yoxSS6wzMPz6aN8.png?scale-down-to=1024" alt="Sans dashboard design" loading="lazy"></div>
+            <div class="card__meta"><span class="card__no">02</span><h3>Sans Dashboard</h3><em>Dashboard Design</em></div>
+          </a>
+          <a class="card reveal" href="#">
+            <div class="card__img"><img src="https://framerusercontent.com/images/GUhtXuO5feiKSicQ6mt6C6RjrI.png?scale-down-to=1024" alt="QuickText SaaS landing page design" loading="lazy"></div>
+            <div class="card__meta"><span class="card__no">03</span><h3>QuickText</h3><em>SaaS Landing Page</em></div>
+          </a>
+          <a class="card reveal" href="#">
+            <div class="card__img"><img src="https://framerusercontent.com/images/KaYFYJSMHF0xVapbKtXXDgBJI.png?scale-down-to=1024" alt="PulseFit fitness planner app design" loading="lazy"></div>
+            <div class="card__meta"><span class="card__no">04</span><h3>PulseFit</h3><em>Fitness Planner App</em></div>
+          </a>
+          <a class="card reveal" href="#">
+            <div class="card__img"><img src="https://framerusercontent.com/images/W8cvPA8frV41YRpeZwd72xTjE8A.png?scale-down-to=1024" alt="Helti health tracker app design" loading="lazy"></div>
+            <div class="card__meta"><span class="card__no">05</span><h3>Helti</h3><em>Health Tracker App</em></div>
+          </a>
+          <a class="card reveal" href="#">
+            <div class="card__img"><img src="https://framerusercontent.com/images/BLV0zmyiRWg97tADZHf0QD6eU0.png?scale-down-to=1024" alt="Arsha agency website design" loading="lazy"></div>
+            <div class="card__meta"><span class="card__no">06</span><h3>Arsha</h3><em>Agency Website</em></div>
+          </a>
+          <a class="card reveal" href="#">
+            <div class="card__img"><img src="https://framerusercontent.com/images/Izl4MksNuxpwXOyvFaiQ4tAWvo.png?scale-down-to=1024" alt="PadelForce coaching landing page design" loading="lazy"></div>
+            <div class="card__meta"><span class="card__no">07</span><h3>PadelForce</h3><em>Coaching Landing Page</em></div>
+          </a>
+          <a class="card reveal" href="#">
+            <div class="card__img"><img src="https://framerusercontent.com/images/VWSPjLdESvaYH8d221xxRQoKow.png?scale-down-to=1024" alt="Dental dashboard design" loading="lazy"></div>
+            <div class="card__meta"><span class="card__no">08</span><h3>Dental Dashboard</h3><em>Dashboard Design</em></div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="block" id="process">
+      <div class="wrap">
+        <div class="split">
+          <div class="split__label reveal"><span class="idx">04</span><span class="label">Process</span></div>
+          <div>
+            <h2 class="title reveal">A Structured Process Built To <span class="accent">Ship And Scale</span></h2>
+            <p class="lead reveal">We follow a clear, collaborative workflow, from discovery to delivery, ensuring speed, clarity, and long-term product success.</p>
+          </div>
+        </div>
+        <ol class="steps">
+          <li class="step reveal"><b>01</b><h3>Free Intro Chat</h3><p>We align on goals, constraints, and success criteria to define the right design direction.</p></li>
+          <li class="step reveal"><b>02</b><h3>Kickoff &amp; Setup</h3><p>We structure requirements, set priorities, and prepare everything for execution.</p></li>
+          <li class="step reveal"><b>03</b><h3>Design &amp; Delivery</h3><p>We design, iterate, and deliver with consistent updates as the work moves forward.</p></li>
+        </ol>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- CONTACT -->
+  <footer class="contact" id="contact">
+    <div class="wrap">
+      <span class="label label--light reveal">Contact Us</span>
+      <h2 class="contact__title reveal">Let’s Turn Your Idea Into A <span>High-Performing Product</span></h2>
+      <p class="contact__lead reveal">Whether you’re exploring an idea or refining an existing product, we’ll help you move forward with clarity and confidence.</p>
+      <a class="contact__mail reveal" href="mailto:rahma.awd.ramadan99@gmail.com">rahma.awd.ramadan99@gmail.com</a>
+      <ul class="contact__links reveal">
+        <!-- Replace each "#" with your real profile link -->
+        <li><a href="#" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="#" target="_blank" rel="noopener">Behance</a></li>
+        <li><a href="#" target="_blank" rel="noopener">Dribbble</a></li>
+      </ul>
+      <p class="contact__legal">© Rahma Awd</p>
+    </div>
+  </footer>
+
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"><span></span></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
